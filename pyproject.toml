@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valida-cnpj-alfanumerico"
+version = "1.0.0"
+description = "Validação, formatação e geração de CNPJ alfanumérico (IN RFB nº 2.229/2024) — zero dependências."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "CNPJcomLetras.com.br", email = "contato@cnpjcomletras.com.br" }]
+keywords = ["cnpj", "cnpj-alfanumerico", "receita-federal", "validador", "brasil"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Natural Language :: Portuguese (Brazilian)",
+  "Topic :: Office/Business :: Financial",
+]
+
+[project.urls]
+Homepage = "https://cnpjcomletras.com.br"
+Repository = "https://github.com/andrehenrique311085-debug/valida-cnpj-alfanumerico-py"
+"Ferramenta online" = "https://cnpjcomletras.com.br"
+
+[tool.setuptools.packages.find]
+where = ["src"]
